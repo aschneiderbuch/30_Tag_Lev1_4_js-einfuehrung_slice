@@ -55,7 +55,7 @@ console.log(längeSusi);                 // 4  4 Zeichen lang
 let anfangsIndexSusi = A.indexOf(sucheSusi);
 console.log(anfangsIndexSusi);          // 0  fängt bei 0 an
 
-let ausschneidernSusi = A.slice(anfangsIndexSusi, längeSusi);
+let ausschneidernSusi = A.slice(anfangsIndexSusi,anfangsIndexSusi+längeSusi);
 console.log(ausschneidernSusi);          // Susi 
 
 document.write(ausschneidernSusi + " ");    // in Html einfügen
@@ -76,7 +76,7 @@ console.log(längeIs2);                 // 2  2 Zeichen lang
 let anfangsIndexIs2 = A.indexOf(sucheIs2);
 console.log(anfangsIndexIs2);          // 5  fängt bei 5 an
 
-let ausschneidernIs2 = A.slice(anfangsIndexIs2, längeIs2);
+let ausschneidernIs2 = A.slice(anfangsIndexIs2, anfangsIndexIs2+längeIs2);
 console.log(ausschneidernIs2);          // Susi 
 
 document.write(ausschneidernIs2 + " ");    // in Html einfügen
