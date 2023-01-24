@@ -33,7 +33,7 @@ console.log(längeSusi);                 // 4  4 Zeichen lang
 let anfangsIndexSusi = A.indexOf(sucheSusi);
 console.log(anfangsIndexSusi);          // 0  fängt bei 0 an
 
-let ausschneidernSusi = A.slice(anfangsIndexSusi, längeSusi);
+let ausschneidernSusi = A.slice(anfangsIndexSusi, anfangsIndexSusi+längeSusi);
 console.log(ausschneidernSusi);          // Susi 
 
 document.write(ausschneidernSusi + " ");    // in Html einfügen
